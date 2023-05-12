@@ -50,6 +50,7 @@ padding: 6% 6% 0 6%;
 
 #titulo:hover{
     cursor: pointer;
+    color: hsl(178, 100%, 50%);
 }
 
 #descripcion{
@@ -122,4 +123,5 @@ padding: 6% 6% 0 6%;
 
 #nombre:hover{
     cursor: pointer;
+    color: hsl(178, 100%, 50%);
 }
