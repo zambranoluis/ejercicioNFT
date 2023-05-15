@@ -26,15 +26,46 @@ body{
 }
 
 
+
+
 #imagennft{
+    position: relative;
     margin: 6% 0 0 6%;
     width:333px;
     height:320px;
     border-radius: 5px;
 }
 
+#oculto{
+    display: none;
+}
 
-#imagennft:hover{
+#cuadrocyan{
+    position: absolute;
+    margin: 2.5% 0 0 37.5%;
+    opacity: 50%;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width:333px;
+    height:320px;
+    background-color: aqua;
+}
+
+
+#iconovista{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    margin: 13% 0 0 48%;
+}
+
+
+
+#producto:hover #oculto{
+    display: flex;
     cursor: pointer;
 }
 
@@ -84,13 +115,22 @@ padding: 6% 6% 0 6%;
 }
 
 #derecha{
+    padding-left: 130px;
     display: flex;
     gap: 5px;
     padding-right: 20px;
 }
 
+#img_reloj{
+    padding-top: 1px;
+    height: 20px;
+}
+
 #tiempodisponible{
+    
     color: hsl(215, 51%, 70%);
+    /* font-size: 0.8rem; */
+    width: 100px;
 }
 
 
